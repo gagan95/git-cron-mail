@@ -7,8 +7,8 @@ var nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-               user: 'node.cron.mail@gmail.com',
-               pass: '7411293797'
+               user: 'XXXXXXX',
+               pass: 'XXXXXX'
            }
        });
 
